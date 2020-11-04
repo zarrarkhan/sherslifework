@@ -5,7 +5,7 @@ img_path: images/about.jpg
 layout: page
 ---
 
-![title](images/about.jpg){:class="img-responsive"}
+<img src="{{site.baseurl}}/images/1.jpg" style="width:100%">
 
 <script src="/assets/js/slideshow.js"></script>
 
