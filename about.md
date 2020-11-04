@@ -5,7 +5,7 @@ img_path: images/about.jpg
 layout: page
 ---
 
-<script src="/assets/js/some-script.js"></script>
+<script src="/assets/js/slideshow.js"></script>
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
