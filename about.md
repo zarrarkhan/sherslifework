@@ -15,19 +15,19 @@ layout: page
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="{{site.baseurl}}/images/1.jpg" style="width:100%">
+    <img src="images/1.jpg">
     <div class="text">Caption Text</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="{{site.baseurl}}/images/2.jpg" style="width:100%">
+    <img src="images/2.jpg">
     <div class="text">Caption Two</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="{{site.baseurl}}/images/3.jpg" style="width:100%">
+    <img src="images/3.jpg">
     <div class="text">Caption Three</div>
   </div>
 
