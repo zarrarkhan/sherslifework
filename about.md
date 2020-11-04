@@ -5,6 +5,8 @@ img_path: images/about.jpg
 layout: page
 ---
 
+![title](images/about.jpg){:class="img-responsive"}
+
 <script src="/assets/js/slideshow.js"></script>
 
 <!-- Slideshow container -->
