@@ -139,38 +139,46 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+/**
+ * Masonary
+ */
+ 
+/* Box-sizing reset: //w3bits.com/?p=3225 */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+ 
+.masonry { /* Masonry container */
+  column-count: 4;
+  margin: 1.5em auto;
+  max-width: 768px;
+  column-gap: 1.5em;
+}
+
+.item { /* Masonry bricks or child elements */
+  background-color: #eee;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
 </style>
 
-<div class="row">
-  <div class="column">
+<div class="masonry">
     <img src="/images/1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
     <img src="/images/2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
     <img src="/images/3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
     <img src="/images/4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
-</div>
-
-<p></p>
-
-<div class="row">
-  <div class="column">
     <img src="/images/5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
     <img src="/images/6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
     <img src="/images/7.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
     <img src="/images/8.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
-  </div>
 </div>
 
 <div id="myModal" class="modal">
@@ -178,42 +186,27 @@ img.hover-shadow {
   <div class="modal-content">
 
     <div class="mySlides">
-      <div class="numbertext">1 / 8</div>
       <img src="/images/1.jpg" style="width:100%">
     </div>
-
     <div class="mySlides">
-      <div class="numbertext">2 / 8</div>
       <img src="/images/2.jpg" style="width:100%">
     </div>
-
     <div class="mySlides">
-      <div class="numbertext">3 / 8</div>
       <img src="/images/3.jpg" style="width:100%">
     </div>
-    
     <div class="mySlides">
-      <div class="numbertext">4 / 8</div>
       <img src="/images/4.jpg" style="width:100%">
     </div>
-	
-	    <div class="mySlides">
-      <div class="numbertext">5 / 8</div>
+	<div class="mySlides">
       <img src="/images/5.jpg" style="width:100%">
     </div>
-
     <div class="mySlides">
-      <div class="numbertext">6 / 8</div>
       <img src="/images/6.jpg" style="width:100%">
     </div>
-
     <div class="mySlides">
-      <div class="numbertext">7 / 8</div>
       <img src="/images/7.jpg" style="width:100%">
-    </div>
-    
+    </div> 
     <div class="mySlides">
-      <div class="numbertext">8 / 8</div>
       <img src="/images/8.jpg" style="width:100%">
     </div>
     
