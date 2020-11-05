@@ -16,7 +16,7 @@ header:
       url: /
       style: link
     - label: Art
-      url: /about
+      url: /art
       style: link
     - label: Style Guide
       url: /style-guide
