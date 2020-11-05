@@ -15,7 +15,7 @@ header:
     - label: Home
       url: /
       style: link
-    - label: AboutAr
+    - label: Art
       url: /about
       style: link
     - label: Style Guide
