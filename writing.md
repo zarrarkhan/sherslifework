@@ -1,10 +1,6 @@
 ---
-title: Style Guide
-subtitle: >-
-  The style guide provides you with a blueprint of default post and page styles.
-  The style guide is also a great reference for suggested typographic treatment
-  and styles for your content.
-img_path: images/style-guide.jpg
+title: Writing
+img_path: /images/art/oils/IMG_20201104_102424678~3.jpg
 layout: page
 ---
 

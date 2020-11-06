@@ -1,8 +1,7 @@
 ---
-title: Thank You!
+title: Memories
 layout: page
+img_path: /images/art/oils/IMG_20201103_092937967~2.jpg
 ---
 
-Thank you for contacting me! I will get back in touch with you soon.
-
-**Have a great day!**
+**Memories**
