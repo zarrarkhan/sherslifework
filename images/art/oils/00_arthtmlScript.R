@@ -39,14 +39,14 @@ htmlCloseAll <-"<a class='prev' onclick='plusSlides(-1)'>&#10094;</a>
 </div>"
 
 combinedHtml1 <- htmlStart1; combinedHtml1
-for(i in 1:2){
+for(i in 1:length(fn)){
   combinedHtml1 <- paste(combinedHtml1,html1,fn[i],html2,i,html3,sep='')
 }; combinedHtml1
 combinedHtml1 <- paste(combinedHtml1,htmlMidClose,sep='\n'); combinedHtml1
 
 
 combinedHtml2 <- htmlModalStart; combinedHtml2
-for(i in 1:2){
+for(i in 1:length(fn)){
   combinedHtml2 <- paste(combinedHtml2,"\n",htmlmodal1,fn[i],htmlmodal2,fn[i],htmlmodal3,sep='')
 }; combinedHtml2
 
