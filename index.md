@@ -16,7 +16,7 @@ This is the story of Sher. A story fate has me tell, as fate had him live. I tel
 
 You can contribute to this collection in the following ways:
 - If you have memories or stories related to any of Sher's works that you would like to share, please [contact us](/contact). We will include these in the captions of the individual pieces as well as in the memories section.
-- If you want to write a more formal reaction or critque of Sher's larger body of work please also [contact us](/contact) with the relevant information. We will feature these on the Critique page.
+- If you want to write a more formal reaction or critique of Sher's larger body of work please also [contact us](/contact) with the relevant information. We will feature these on the Critique page.
 - Please also [contact us](/contact) if you are aware of or possess any additional works which are not featured on this webpage. 
 - For more informal reactions and comments please use the official instagram and facebook accounts.
 
