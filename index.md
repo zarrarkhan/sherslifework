@@ -12,7 +12,7 @@ This is the story of Sher. A story fate has me tell, as fate had him live. I tel
 
 <p></p>
 
-## Participate
+## Get Involved
 
 You can contribute to this collection in the following ways:
 - **Memories:** If you have memories or stories related to any of Sher's works that you would like to share, please [Contact us](/contact). We will include these in the captions of the individual pieces as well as in the [Memories](/memories) section.
