@@ -20,7 +20,7 @@ You can contribute to this collection in the following ways:
 - **Additional Works:** Please also [Contact us](/contact) if you are aware of or possess any additional works which are not featured on this webpage. 
 - **Informal Comments:** For more informal reactions and comments please use the official [instagram](https://www.instagram.com/sherslifework/), [twitter](https://twitter.com/sherslifework) and [facebook](https://www.facebook.com/Sherslifework-107327871176700/?view_public_for=107327871176700) accounts.
 
-## Sher's Walk through time
+## Sher's Walk Through Time
 
 <img src="/images/sher/timeline.jpg" />
 
