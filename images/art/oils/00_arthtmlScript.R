@@ -1,4 +1,4 @@
-setwd('C:\Z\sher\sherslifework\images\art\oils')
+setwd('C:/Z/sher/sherslifework/images/art/oils')
 
 # Get list of files (Remove R script)
 fn <- list.files(); fn
