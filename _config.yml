@@ -33,29 +33,19 @@ header:
   has_social: true
   social_links:
     - label: Twitter
-      url: 'https://twitter.com/'
+      url: 'https://twitter.com/sherslifework'
       style: icon
       icon_class: fa-twitter
       new_window: true
     - label: Instagram
-      url: 'https://www.instagram.com/'
+      url: 'https://www.instagram.com/sherslifework/'
       style: icon
       icon_class: fa-instagram
       new_window: true
-    - label: GitHub
-      url: 'https://github.com/'
+    - label: Facebook
+      url: 'https://www.facebook.com/Sherslifework-107327871176700/?view_public_for=107327871176700'
       style: icon
-      icon_class: fa-github
-      new_window: true
-    - label: LinkedIn
-      url: 'https://www.linkedin.com/'
-      style: icon
-      icon_class: fa-linkedin
-      new_window: true
-    - label: DEV
-      url: 'https://dev.to/'
-      style: icon
-      icon_class: fa-dev
+      icon_class: fa-facebook
       new_window: true
 footer:
   content: '&copy; All rights reserved.'
