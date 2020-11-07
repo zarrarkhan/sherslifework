@@ -24,7 +24,7 @@ htmlmodal1 <- "<div class='mySlides'>
 <figcaption>"
 # title here
 htmlmodal2 <- "</figcaption>
-<img src='"
+<img src='/images/art/oils/"
 # title here
 htmlmodal3 <- "' style='width:100%'>
 </div>"
