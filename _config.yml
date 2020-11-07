@@ -30,9 +30,6 @@ header:
     - label: Critique
       url: /critique
       style: link
-    - label: Mental Health
-      url: /mental
-      style: link
     - label: Contact
       url: /contact
       style: link
