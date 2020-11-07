@@ -1,7 +1,7 @@
 ---
 title: Contact us
 layout: page
-img_path: /images/art/oils/IMG_20201103_092937967~2.jpg
+img_path: /images/art/oils/24_Under an umbrella_12x12in.jpg
 ---
 
 To contact us please email us at:
