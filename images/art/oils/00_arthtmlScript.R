@@ -10,7 +10,7 @@ fn <- fn[!grepl('.html',fn)]; fn
 htmlStart1 <- "<div id='Oils & Acrlyics' class='tabcontent'>
 <div class='masonry'>"; htmlStart1
 html1 <- "<div class='item'> 
-<img src='/images/art/oils/'"; html1
+<img src='/images/art/oils/"; html1
 # title here
 html2 <- "' style='width:100%' onclick='openModal();currentSlide("; html2
 # title num here
