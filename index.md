@@ -1,6 +1,6 @@
 ---
 title: Life & Work of Sher Khan
-img_path: images/art/oils/sher_self1.jpg
+img_path: images/art/oils/sher self1_24x30in.jpg
 layout: page
 ---
 
