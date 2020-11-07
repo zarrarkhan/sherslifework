@@ -4,10 +4,10 @@ permalink: '/:title/'
 collections:
   posts:
     permalink: '/posts/:title/'
-description: A minimal blogging theme for Stackbit
+description: Life & work of Sher Khan
 header:
-  title: Fjord
-  tagline: Minimal and clean blog theme
+  title:
+  tagline: Life and work of Sher Khan
   logo_img: images/logo.png
   background_img: images/header-bg.jpg
   has_nav: true
