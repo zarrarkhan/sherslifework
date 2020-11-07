@@ -4,7 +4,7 @@ img_path: images/art/oils/sher self1_24x30in.jpg
 layout: page
 ---
 
-This is the story of Sher. A story fate has me tell, as fate had him live. I tell only part of this tale. Probably the largest part. The remainder I piece together from his letters, his writings, his art & the memories of others as they share them with me. I write partly because I cannot let go and partly because Sher's was an invisible struggle that goes on and must be heard if we are to heal. He was of those amongst us whom life in it's cruel twists picks to fight our demons for us. May you all rest in peace.
+This is the story of Sher. A story fate has me tell, as fate had him live. I tell only part of this tale. Probably the largest part. The remainder I piece together from his letters, his writings, his art & the memories of others as they share them with me. I write partly because I cannot let go and partly because Sher's was an invisible struggle that goes on and must be heard if we are to heal. He was of those amongst us whom life, in it's cruel twists, picks to fight our demons for us. May you all rest in peace.
 
 <p></p>
 
