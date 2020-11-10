@@ -8,7 +8,7 @@ This is the story of Sher. A story fate has me tell, as fate had him live. I tel
 
 <p></p>
 
-<img src="/images/sher/sher_studio2.jpg" />
+<img src="/images/Webpage/sher_studio2.jpg" />
 
 <p></p>
 
@@ -22,7 +22,7 @@ You can contribute to this collection in the following ways:
 
 ## Sher's Walk Through Time
 
-<img src="/images/sher/timeline.jpg" />
+<img src="/images/Webpage/timeline.jpg" />
 
 ## Sher's Story
 
