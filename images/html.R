@@ -9,6 +9,7 @@ fn <- list.files(); fn
 fn <- stringr::str_sort(fn,numeric=T)
 fn <- fn[!grepl('.R',fn)]; fn
 fn <- fn[!grepl('.html',fn)]; fn
+io <- length(fn)
 
 # Write out html script with file names
 # First Div
@@ -67,6 +68,7 @@ if(T){
   fn <- stringr::str_sort(fn,numeric=T)
   fn <- fn[!grepl('.R',fn)]; fn
   fn <- fn[!grepl('.html',fn)]; fn
+  iw <- io + length(fn)
   
   # Write out html script with file names
   # First Div
@@ -103,7 +105,7 @@ if(T){
   
   combinedHtml1 <- htmlStart1; combinedHtml1
   for(i in 1:length(fn)){
-    combinedHtml1 <- paste(combinedHtml1,html1,fn[i],html2,i,html3,sep='')
+    combinedHtml1 <- paste(combinedHtml1,html1,fn[i],html2,i+io,html3,sep='')
   }; combinedHtml1
   combinedHtml1 <- paste(combinedHtml1,htmlMidClose,sep='\n'); combinedHtml1
   
@@ -125,6 +127,7 @@ if(T){
   fn <- stringr::str_sort(fn,numeric=T)
   fn <- fn[!grepl('.R',fn)]; fn
   fn <- fn[!grepl('.html',fn)]; fn
+  id <- iw + length(fn)
   
   # Write out html script with file names
   # First Div
@@ -161,7 +164,7 @@ if(T){
   
   combinedHtml1 <- htmlStart1; combinedHtml1
   for(i in 1:length(fn)){
-    combinedHtml1 <- paste(combinedHtml1,html1,fn[i],html2,i,html3,sep='')
+    combinedHtml1 <- paste(combinedHtml1,html1,fn[i],html2,i+iw,html3,sep='')
   }; combinedHtml1
   combinedHtml1 <- paste(combinedHtml1,htmlMidClose,sep='\n'); combinedHtml1
   
