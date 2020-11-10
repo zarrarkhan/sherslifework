@@ -89,7 +89,7 @@ if(T){
 
   combinedHtml1 <- htmlStart1; combinedHtml1
   for(i in 1:length(fn)){
-    combinedHtml1 <- paste(combinedHtml1,html1,fn[i],html2,i+length(fnO)+length(fnD),html3,sep='')
+    combinedHtml1 <- paste(combinedHtml1,html1,fn[i],html2,i+length(fnO)+length(fnW),html3,sep='')
   }; combinedHtml1
   combinedHtml1 <- paste(combinedHtml1,htmlMidClose,sep='\n'); combinedHtml1
  
