@@ -1,6 +1,6 @@
 ---
 title: Life & Work of Sher Khan
-img_path: images/SherOils/D34. Self-portrait (24 x 30 in) 2012 - Groningen.jpg
+img_path: images/SherOils/O34. Self-portrait (24 x 30 in) 2012 - Groningen.jpg
 layout: page
 ---
 

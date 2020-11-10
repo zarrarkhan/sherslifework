@@ -29,7 +29,7 @@ for(i in 1:length(fn)){
 }; combinedHtml1
 combinedHtml1 <- paste(combinedHtml1,htmlMidClose,sep='\n'); combinedHtml1
 
-combinedHtmlO <- combinedHtml1; combinedHtml
+combinedHtmlO <- combinedHtml1; combinedHtmlO
 }
 
 # Watercolors
@@ -61,7 +61,7 @@ if(T){
   }; combinedHtml1
   combinedHtml1 <- paste(combinedHtml1,htmlMidClose,sep='\n'); combinedHtml1
  
-  combinedHtmlW <- combinedHtml1; combinedHtml
+  combinedHtmlW <- combinedHtml1; combinedHtmlW
 }
 
 # Drawings
@@ -93,7 +93,7 @@ if(T){
   }; combinedHtml1
   combinedHtml1 <- paste(combinedHtml1,htmlMidClose,sep='\n'); combinedHtml1
  
-  combinedHtmlD <- combinedHtml1; combinedHtml
+  combinedHtmlD <- combinedHtml1; combinedHtmlD
 }
 
 
