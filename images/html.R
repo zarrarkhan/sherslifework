@@ -24,7 +24,7 @@ html3 <- ")' class='hover-shadow cursor'> </div>"; html3
 htmlMidClose <- "</div>\n</div>" # Close Masonary Div
 
 combinedHtml1 <- htmlStart1; combinedHtml1
-for(i in 1:2){
+for(i in 1:length(fn)){
   combinedHtml1 <- paste(combinedHtml1,html1,fn[i],html2,i,html3,sep='')
 }; combinedHtml1
 combinedHtml1 <- paste(combinedHtml1,htmlMidClose,sep='\n'); combinedHtml1
@@ -56,7 +56,7 @@ if(T){
   htmlMidClose <- "</div>\n</div>" # Close Masonary Div
   
   combinedHtml1 <- htmlStart1; combinedHtml1
-  for(i in 1:2){
+  for(i in 1:length(fn)){
     combinedHtml1 <- paste(combinedHtml1,html1,fn[i],html2,i+length(fnO),html3,sep='')
   }; combinedHtml1
   combinedHtml1 <- paste(combinedHtml1,htmlMidClose,sep='\n'); combinedHtml1
@@ -88,7 +88,7 @@ if(T){
   htmlMidClose <- "</div>\n</div>" # Close Masonary Div
 
   combinedHtml1 <- htmlStart1; combinedHtml1
-  for(i in 1:2){
+  for(i in 1:length(fn)){
     combinedHtml1 <- paste(combinedHtml1,html1,fn[i],html2,i+length(fnO)+length(fnD),html3,sep='')
   }; combinedHtml1
   combinedHtml1 <- paste(combinedHtml1,htmlMidClose,sep='\n'); combinedHtml1
