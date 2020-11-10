@@ -1,3 +1,4 @@
+library(stringr)
 
 # Oils
 if(T){
@@ -5,6 +6,7 @@ setwd('C:/Z/sher/sherslifework/images/SherOils')
 
 # Get list of files (Remove R script)
 fn <- list.files(); fn
+fn <- stringr::str_sort(fn,numeric=T)
 fn <- fn[!grepl('.R',fn)]; fn
 fn <- fn[!grepl('.html',fn)]; fn
 
@@ -68,6 +70,7 @@ if(T){
   
   # Get list of files (Remove R script)
   fn <- list.files(); fn
+  fn <- stringr::str_sort(fn,numeric=T)
   fn <- fn[!grepl('.R',fn)]; fn
   fn <- fn[!grepl('.html',fn)]; fn
   
@@ -131,6 +134,7 @@ if(T){
   
   # Get list of files (Remove R script)
   fn <- list.files(); fn
+  fn <- stringr::str_sort(fn,numeric=T)
   fn <- fn[!grepl('.R',fn)]; fn
   fn <- fn[!grepl('.html',fn)]; fn
   
