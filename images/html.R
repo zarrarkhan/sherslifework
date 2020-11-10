@@ -9,7 +9,6 @@ fn <- list.files(); fn
 fn <- stringr::str_sort(fn,numeric=T)
 fn <- fn[!grepl('.R',fn)]; fn
 fn <- fn[!grepl('.html',fn)]; fn
-io <- length(fn)
 
 # Write out html script with file names
 # First Div
@@ -45,14 +44,14 @@ htmlCloseAll <-"<a class='prev' onclick='plusSlides(-1)'>&#10094;</a>
 </div>"
 
 combinedHtml1 <- htmlStart1; combinedHtml1
-for(i in 1:length(fn)){
+for(i in 1:2){
   combinedHtml1 <- paste(combinedHtml1,html1,fn[i],html2,i,html3,sep='')
 }; combinedHtml1
 combinedHtml1 <- paste(combinedHtml1,htmlMidClose,sep='\n'); combinedHtml1
 
 
 combinedHtml2 <- htmlModalStart; combinedHtml2
-for(i in 1:length(fn)){
+for(i in 1:2){
   combinedHtml2 <- paste(combinedHtml2,"\n",htmlmodal1,gsub(".jpg","",fn[i]),htmlmodal2,fn[i],htmlmodal3,sep='')
 }; combinedHtml2
 
@@ -68,7 +67,6 @@ if(T){
   fn <- stringr::str_sort(fn,numeric=T)
   fn <- fn[!grepl('.R',fn)]; fn
   fn <- fn[!grepl('.html',fn)]; fn
-  iw <- io + length(fn)
   
   # Write out html script with file names
   # First Div
@@ -104,14 +102,14 @@ if(T){
 </div>"
   
   combinedHtml1 <- htmlStart1; combinedHtml1
-  for(i in 1:length(fn)){
-    combinedHtml1 <- paste(combinedHtml1,html1,fn[i],html2,i+io,html3,sep='')
+  for(i in 1:2){
+    combinedHtml1 <- paste(combinedHtml1,html1,fn[i],html2,i,html3,sep='')
   }; combinedHtml1
   combinedHtml1 <- paste(combinedHtml1,htmlMidClose,sep='\n'); combinedHtml1
   
   
   combinedHtml2 <- htmlModalStart; combinedHtml2
-  for(i in 1:length(fn)){
+  for(i in 1:2){
     combinedHtml2 <- paste(combinedHtml2,"\n",htmlmodal1,gsub(".jpg","",fn[i]),htmlmodal2,fn[i],htmlmodal3,sep='')
   }; combinedHtml2
   
@@ -127,7 +125,6 @@ if(T){
   fn <- stringr::str_sort(fn,numeric=T)
   fn <- fn[!grepl('.R',fn)]; fn
   fn <- fn[!grepl('.html',fn)]; fn
-  id <- iw + length(fn)
   
   # Write out html script with file names
   # First Div
@@ -163,14 +160,14 @@ if(T){
 </div>"
   
   combinedHtml1 <- htmlStart1; combinedHtml1
-  for(i in 1:length(fn)){
-    combinedHtml1 <- paste(combinedHtml1,html1,fn[i],html2,i+iw,html3,sep='')
+  for(i in 1:2){
+    combinedHtml1 <- paste(combinedHtml1,html1,fn[i],html2,i,html3,sep='')
   }; combinedHtml1
   combinedHtml1 <- paste(combinedHtml1,htmlMidClose,sep='\n'); combinedHtml1
   
   
   combinedHtml2 <- htmlModalStart; combinedHtml2
-  for(i in 1:length(fn)){
+  for(i in 1:2){
     combinedHtml2 <- paste(combinedHtml2,"\n",htmlmodal1,gsub(".jpg","",fn[i]),htmlmodal2,fn[i],htmlmodal3,sep='')
   }; combinedHtml2
   
