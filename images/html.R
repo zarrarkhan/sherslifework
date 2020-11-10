@@ -27,7 +27,7 @@ htmlmodal1 <- "<div class='mySlides'>
 <figcaption>"
 # title here
 htmlmodal2 <- "</figcaption>
-<img src='/images/art/SherOils/"
+<img src='/images/SherOils/"
 # title here
 htmlmodal3 <- "' style='width:100%'>
 </div>"
@@ -50,7 +50,7 @@ combinedHtml1 <- paste(combinedHtml1,htmlMidClose,sep='\n'); combinedHtml1
 
 combinedHtml2 <- htmlModalStart; combinedHtml2
 for(i in 1:length(fn)){
-  combinedHtml2 <- paste(combinedHtml2,"\n",htmlmodal1,fn[i],htmlmodal2,fn[i],htmlmodal3,sep='')
+  combinedHtml2 <- paste(combinedHtml2,"\n",htmlmodal1,gsub(".jpg","",fn[i]),htmlmodal2,fn[i],htmlmodal3,sep='')
 }; combinedHtml2
 
 combinedHtml <- paste(combinedHtml1,combinedHtml2,htmlCloseAll,sep='\n'); combinedHtml
@@ -113,7 +113,7 @@ if(T){
   
   combinedHtml2 <- htmlModalStart; combinedHtml2
   for(i in 1:length(fn)){
-    combinedHtml2 <- paste(combinedHtml2,"\n",htmlmodal1,fn[i],htmlmodal2,fn[i],htmlmodal3,sep='')
+    combinedHtml2 <- paste(combinedHtml2,"\n",htmlmodal1,gsub(".jpg","",fn[i]),htmlmodal2,fn[i],htmlmodal3,sep='')
   }; combinedHtml2
   
   combinedHtml <- paste(combinedHtml1,combinedHtml2,htmlCloseAll,sep='\n'); combinedHtml
@@ -124,7 +124,6 @@ if(T){
               col.names = FALSE,
               row.names = FALSE)
 }
-
 
 # Watercolors
 if(T){
@@ -177,7 +176,7 @@ if(T){
   
   combinedHtml2 <- htmlModalStart; combinedHtml2
   for(i in 1:length(fn)){
-    combinedHtml2 <- paste(combinedHtml2,"\n",htmlmodal1,fn[i],htmlmodal2,fn[i],htmlmodal3,sep='')
+    combinedHtml2 <- paste(combinedHtml2,"\n",htmlmodal1,gsub(".jpg","",fn[i]),htmlmodal2,fn[i],htmlmodal3,sep='')
   }; combinedHtml2
   
   combinedHtml <- paste(combinedHtml1,combinedHtml2,htmlCloseAll,sep='\n'); combinedHtml
