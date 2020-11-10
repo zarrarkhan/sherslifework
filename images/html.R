@@ -106,8 +106,12 @@ htmlModalStart <- "<div id='myModal' class='modal'>
 htmlmodal1 <- "<div class='mySlides'>
 <figcaption>"
 # title here
-htmlmodal2 <- "</figcaption>
+htmlmodalO <- "</figcaption>
+<img src='/images/SherOils/"
+htmlmodalW <- "</figcaption>
 <img src='/images/SherWatercolors/"
+htmlmodalD <- "</figcaption>
+<img src='/images/SherDrawings/"
 # title here
 htmlmodal3 <- "' style='width:100%'>
 </div>"
@@ -120,17 +124,25 @@ htmlCloseAll <-"<a class='prev' onclick='plusSlides(-1)'>&#10094;</a>
 </div>
 </div>"
 
-fn <- c(fnO, fnW, fnD)
-
 combinedHtml1 <- htmlModalStart; combinedHtml1
-for(i in 1:length(fn)){
-  combinedHtml1 <- paste(combinedHtml1,htmlmodal1,gsub(".jpg","",fn[i]),
-                         htmlmodal2,fn[i],htmlmodal3,sep='')
+for(i in 1:length(fnO)){
+  combinedHtml1 <- paste(combinedHtml1,htmlmodal1,gsub(".jpg","",fnO[i]),
+                         htmlmodalO,fnO[i],htmlmodal3,sep='')
+}; combinedHtml1
+
+for(i in 1:length(fnW)){
+  combinedHtml1 <- paste(combinedHtml1,htmlmodal1,gsub(".jpg","",fnW[i]),
+                         htmlmodalW,fnW[i],htmlmodal3,sep='')
+}; combinedHtml1
+
+for(i in 1:length(fnD)){
+  combinedHtml1 <- paste(combinedHtml1,htmlmodal1,gsub(".jpg","",fnD[i]),
+                         htmlmodalD,fnD[i],htmlmodal3,sep='')
 }; combinedHtml1
 
 combinedHtml1 <- paste(combinedHtml1,htmlCloseAll,sep='\n'); combinedHtml1
 
-combinedHtmlM <- combinedHtml1; combinedHtml
+combinedHtmlM <- combinedHtml1; combinedHtmlM
 
 }
 
