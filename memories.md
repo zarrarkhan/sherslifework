@@ -1,7 +1,7 @@
 ---
 title: Memories
 layout: page
-img_path: /images/art/oils/last night with erica_13x16in_Feb2018.jpg
+img_path: /images/SherOils/D95. Last glass (13 x 16 in) Feb 2018 - Stockholm.jpg
 ---
 
 **Memories**

@@ -1,6 +1,6 @@
 ---
 title: Writing
-img_path: /images/art/oils/view of hagaparken_13x10in_25Nov2017.jpg
+img_path: /images/SherOils/D45. View of Hagaparken, Solna (13 x 10 in) 27 D 2017 - Stockholm.jpg
 layout: page
 ---
 

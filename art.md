@@ -1,7 +1,7 @@
 ---
 title: Art
 layout: page
-img_path: /images/art/oils/13_Shelter from the storm_12x12in_7May2020.jpg
+img_path: /images/SherOils/D13. Shelter from the storm (12 x 12 in) 7 May 2020 - Lahore.jpg
 ---
 
 {% include art.html %}
