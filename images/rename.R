@@ -1,3 +1,5 @@
+setwd("C:/Z/sher/SherOriginal")
+
 fn <- list.files(paste(getwd(),"/SherDrawings",sep=""));fn
 # Rename
 for (i in 1:length(fn)){
