@@ -217,6 +217,21 @@ figcaption {
   border: 1px solid #ccc;
   border-top: none;
 }
+
+/* Quote */
+blockquote {
+  border-left: 5px solid _palette(accent);
+  color: _palette(secondary);
+  font-size: 1.33333rem;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 2.5rem auto;
+  max-width: 555px;
+  padding-left: 1.25em;
+
+  &:first-child {
+    margin-top: 0
+  }
 }
 </style>
 
@@ -248,7 +263,7 @@ figcaption {
 </audio>
 </div>
 <div id='Text' class='tabcontent'>
-Memory
+<blockquote> Memory </blockquote>
 </div>
 
 <div id='myModal' class='modal'> 
