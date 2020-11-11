@@ -6,15 +6,3 @@ layout: page
 
 {% include writing.html %}
 
-<div id='Books' class='tabcontent'>
-**Quote**.
->“A quote” <cite>― Unknown</cite>
-</div>
-
-<div id='Essays' class='tabcontent'>
-asasa
-</div>
-
-<div id='Articles' class='tabcontent'>
-assa
-</div>
