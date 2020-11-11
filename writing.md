@@ -4,6 +4,4 @@ img_path: /images/SherOils/O45. View of Hagaparken, Solna (13 x 10 in) 27 D 2017
 layout: page
 ---
 
-**Quote**. 
-
->“A quote” <cite>― Unknown</cite>
+{% include writing.html %}
