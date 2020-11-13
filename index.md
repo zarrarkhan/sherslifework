@@ -15,10 +15,11 @@ This is the story of Sher. A story fate has me tell, as fate had him live. I tel
 ## Get Involved
 
 You can contribute to this collection in the following ways:
-- **Memories:** If you have memories or stories related to any of Sher's works that you would like to share, please [Contact us](/contact). We will include these in the captions of the individual pieces as well as in the [Memories](/memories) section.
+- **Memories:** If you have memories or stories of times with Sher or of any of Sher's works that you would like to share, please [Contact us](/contact). We will include these in the [Memories](/memories) section as well as in the captions of the relevant works.
 - **Critique:** If you want to write a more formal reaction or critique of Sher's larger body of work please also [Contact us](/contact) with the relevant information. We will feature these on the [Critique](/critique) page.
 - **Additional Works:** Please also [Contact us](/contact) if you are aware of or possess any additional works which are not featured on this webpage. 
 - **Informal Comments:** For more informal reactions and comments please use the official [instagram](https://www.instagram.com/sherslifework/), [twitter](https://twitter.com/sherslifework) and [facebook](https://www.facebook.com/Sherslifework-107327871176700/?view_public_for=107327871176700) accounts.
+- **Sher Khan Foundation:** Several of Sher's friends and family want to start the "Sher Khan Foundation" to support research in Mental Healing and support for arts and sciences. You can[Contact us](/contact) if you have ideas or want to particpate. Please see details and updates on the [Mental Healing](/mental) page.
 
 ## Sher's Walk Through Time
 

@@ -238,15 +238,26 @@ blockquote {
 <!-- Tab links -->
 <center>
 <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Memories')">Memories</button>
   <button class="tablinks" onclick="openCity(event, 'Pictures')">Pictures</button>
   <button class="tablinks" onclick="openCity(event, 'Videos')">Videos</button>
-  <button class="tablinks" onclick="openCity(event, 'Audio')">Audio</button>
-  <button class="tablinks" onclick="openCity(event, 'Text')">Text</button>
+  <button class="tablinks" onclick="openCity(event, 'Audio')">Audio</button> 
+  <button class="tablinks" onclick="openCity(event, 'Inspired Art')">Inspired Art</button> 
 </div>
 </center>
 
+<div id='Memories' class='tabcontent'>
+<p></p>
+<p></p>
+<h4> Memories </h4>
+<p></p>
+<blockquote> "Your memory or story..." </blockquote>
+<cite> - Anonymous </cite>
+</div>
 <div id='Pictures' class='tabcontent'>
 <p></p>
+<p></p>
+<h4> Pictures </h4>
 <p></p>
 <div class='masonry'>
 <div class='item'> 
@@ -257,27 +268,33 @@ blockquote {
 <div id='Videos' class='tabcontent'>
 <p></p>
 <p></p>
-<h5> Sher Jam Japan </h5>
+<h5> Videos </h5>
 <p></p>
 <video controls>
   <source src='/images/MemoryVideos/untitled1.mp4' type="video/mp4">
 </video>
+<caption> Sher Japan Jam </caption>
 </div>
 <div id='Audio' class='tabcontent'>
 <p></p>
 <p></p>
-<h5> I've been everywhere man - Johnny Cash (Pak version) </h5>
+<h5> Audio </h5>
 <p></p>
 <audio controls>
   <source src='/images/MemoryAudio/been_every_pak.mp3' type="audio/mp3">
 </audio>
+<caption>I've been everywhere man - Johnny Cash (Pak version)</p>
 </div>
-<div id='Text' class='tabcontent'>
+<div id='Inspired Art' class='tabcontent'>
 <p></p>
 <p></p>
-<h4> Text memories </h4>
+<h4> Inspired Art </h4>
 <p></p>
-<blockquote> Quote </blockquote>
+<div class='masonry'>
+<div class='item'> 
+<img src='/images/MemoryOthers/zarrar_Brothers.jpg' style='width:100%' onclick='openModal();currentSlide(2)' class='hover-shadow cursor'>
+</div>
+</div>
 </div>
 
 <div id='myModal' class='modal'> 
@@ -285,6 +302,10 @@ blockquote {
 <div class='modal-content'>
 <div class='mySlides'>
 <figcaption>Sher & Miguel</figcaption>
+<img src='/images/MemoryPictures/MiguelSher.jpg' style='width:100%'>
+</div>
+<div class='mySlides'>
+<figcaption>Untitled - Zarrar Khan</figcaption>
 <img src='/images/MemoryPictures/MiguelSher.jpg' style='width:100%'>
 </div>
 <a class='prev' onclick='plusSlides(-1)'>&#10094;</a>
