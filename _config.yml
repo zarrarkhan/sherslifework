@@ -33,6 +33,9 @@ header:
     - label: Mental Healing
       url: /mental
       style: link
+    - label: Sher Khan Foundation
+      url: /skf
+      style: link
     - label: Contact
       url: /contact
       style: link
