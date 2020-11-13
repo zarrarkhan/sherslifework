@@ -218,6 +218,9 @@ figcaption {
   border-top: none;
 }
 }
+
+#more {display: none;}
+
 </style>
 
 <!-- Tab links -->
@@ -236,8 +239,12 @@ figcaption {
 <h3> Books </h3>
 <p></p>
 <ul>
-  <li>Yesterday is here (2016)</li>
-  <li>Ascent to Madness (2017)</li>
+  <li>Yesterday is here (2016) 
+  <span id="more">More text</span>
+  <button onclick="myFunction()" id="myBtn">Read more</button></li>
+  <li>Ascent to Madness (2017)
+  <span id="more">More text</span>
+  <button onclick="myFunction()" id="myBtn">Read more</button></li>
   <li>When the suffering is over (2017)</li>
 </ul>
 </div>
@@ -271,6 +278,24 @@ figcaption {
 </div>
 
 <script>
+
+//Read More Button
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
 // TABS
 function openCity(evt, cityName) {
   // Declare all variables
