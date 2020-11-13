@@ -4,31 +4,4 @@ img_path: images/SherOils/O34. Self-portrait (24 x 30 in) 2012 - Groningen.jpg
 layout: page
 ---
 
-This is the story of Sher. A story fate has me tell, as fate had him live. I tell only part of this tale. Probably the largest part. The remainder I piece together from his letters, his writings, his art & the memories of others as they share them with me. I write partly because I cannot let go and partly because Sher's was an invisible struggle that goes on and must be heard if we are to heal. He was of those amongst us whom life, in it's cruel twists, picks to fight our demons for us. May you all rest in peace.
-
-<p></p>
-
-<img src="/images/Webpage/sher_studio2.jpg" />
-
-<p></p>
-
-## Get Involved
-
-You can contribute to this collection in the following ways:
-- **Memories:** If you have memories or stories of times with Sher or of any of Sher's works that you would like to share, please [Contact us](/contact). We will include these in the [Memories](/memories) section as well as in the captions of the relevant works.
-- **Critique:** If you want to write a more formal reaction or critique of Sher's larger body of work please also [Contact us](/contact) with the relevant information. We will feature these on the [Critique](/critique) page.
-- **Additional Works:** Please also [Contact us](/contact) if you are aware of or possess any additional works which are not featured on this webpage. 
-- **Informal Comments:** For more informal reactions and comments please use the official [instagram](https://www.instagram.com/sherslifework/), [twitter](https://twitter.com/sherslifework) and [facebook](https://www.facebook.com/Sherslifework-107327871176700/?view_public_for=107327871176700) accounts.
-- **Sher Khan Foundation:** Several of Sher's friends and family want to start the "Sher Khan Foundation" to support research in Mental Healing and support for arts and sciences. You can[Contact us](/contact) if you have ideas or want to particpate. Please see details and updates on the [Mental Healing](/mental) page.
-
-## Sher's Walk Through Time
-
-<img src="/images/Webpage/timeline.jpg" />
-
-## Sher's Story
-
-On 15 Oct 2020, Sher was 33 years old when he left behind more than 400 paintings, 3 books and numerous short stories, essays and letters. He spoke Urdu, English and Japanese, a language in which he completed his Bachelor's of Engineering. He had a PhD in Chemical Physics and was a runner, climber and musician. At the same time he battled with extreme paranoia and manic depression. He did not speak much off this torment and I who spent so much time with him, remember only laughter, only joy. He shielded me from the pain which he poured out on paper in colors and brush strokes which said so much more. 
-
-He was the greatest person I know. In Stockholm, I sat besides him, in his room in the dark. A beam of light piercing through the cardboard boxes he had used to board up his windows. He had moved his mattress under his dining table, where he sat with his laptop, protected from the voices, the mocking laughter, the glares, I did not see, I could not hear. Here he completed his doctoral thesis "Combined Quantum Mechanical and Molecular Dynamics study of paramagnetic complexes". And here we sat talking, just as we had all our lives. Of art, of running, of silly made up worlds, of science and religion, of love and loss. It was always so easy for us to laugh till we cried tears of joy like children. But here his laughter was interuppted by chokes of pain, his smile broken by grimaces of fear. He was concentrating so hard to stay on the thin wall that divided these two worlds. The one he shared with us and the one he wrote and painted about. I loved Sher so much. When I finally accepted what had happened, I felt as if my very soul was being slowly ripped from my spine. I could not breathe. I cannot breathe. I know there is relief as he is free from the other world. But he is also gone from mine. From ours. We must understand his work represents this struggle, of one who lived so much, for so long, with a pain that tried to paralyze him since he was a child.   
-
-To be continued ...
+{% include index.html %}
