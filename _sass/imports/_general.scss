@@ -340,6 +340,23 @@ input[type="reset"],
   }
 }
 
+buttonRead,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+.buttonRead {
+  font-size: 10px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: #808080;
+    outline: 0;
+  }
+}
+
 #menu-toggle {
   background: 0;
   border: 0;
