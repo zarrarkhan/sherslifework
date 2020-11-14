@@ -128,7 +128,7 @@ blockquote {
   }
 
   p {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 
     &:last-child {
       margin-bottom: 0;
@@ -139,7 +139,7 @@ blockquote {
   cite {
     color: _palette(meta);
     display: block;
-    font-size: 0.6em;
+    font-size: 0.7em;
     font-style: normal;
     font-weight: normal;
     letter-spacing: 0.15em;
