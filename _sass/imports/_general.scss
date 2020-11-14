@@ -193,12 +193,12 @@ blockexcerpt {
 blockSher {
   border-left: 5px solid _palette(accent);
   color: _palette(secondary);
-  font-size: 1.33333rem;
+  font-size: 1rem;
   font-style: italic;
   line-height: 1.5;
   margin: 2.5rem auto;
   max-width: 555px;
-  padding-left: 1.25em;
+  padding-left: 1em;
 
   &:first-child {
     margin-top: 0
@@ -216,7 +216,7 @@ blockSher {
   cite {
     color: _palette(meta);
     display: block;
-    font-size: 0.66667em;
+    font-size: 0.5em;
     font-style: normal;
     font-weight: normal;
     letter-spacing: 0.15em;
