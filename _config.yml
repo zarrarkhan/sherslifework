@@ -16,8 +16,9 @@ header:
       url: /
       style: link
     - label: Works
-      url: /art
-      style: link
+      subfolderitems: 
+        - label: Art
+          url: /art
     - label: Writing
       url: /writing
       style: link
