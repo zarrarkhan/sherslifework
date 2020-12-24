@@ -15,7 +15,7 @@ header:
     - label: Home
       url: /
       style: link
-    - label: Works
+    - label: Art
       url: /art
       style: link
     - label: Writing
@@ -27,7 +27,7 @@ header:
     - label: Memories
       url: /memories
       style: link
-    - label: Critique
+    - label: Shows & Critique
       url: /critique
       style: link
     - label: Mental Health
