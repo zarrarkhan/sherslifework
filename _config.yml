@@ -53,11 +53,6 @@ header:
       style: icon
       icon_class: fa-facebook
       new_window: true
-    - label: Contact
-      url: /contact
-      style: icon
-      icon_class: fa-envelope
-      new_window: true
 footer:
   content: '&copy; All rights reserved.'
 palette: yellow
