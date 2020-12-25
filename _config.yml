@@ -60,11 +60,6 @@ header:
       new_window: true
 footer:
   content: '&copy; All rights reserved.'
-  links:
-    - label: Made with Stackbit.
-      url: 'https://www.stackbit.com'
-      style: link
-      new_window: true
 palette: yellow
 sass:
   indentWidth: 4
