@@ -1,18 +1,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
 }
 
-/* Clear floats after image containers */
-.row::after {
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
   content: "";
-  clear: both;
   display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
 }
 
 /* The Modal (background) */
@@ -210,14 +219,6 @@ figcaption {
   border-top: none;
 }
 }
-
-figcaptionW {
-  font-size: 0.8em;
-  font-style: italic;
-  padding: 2px;
-  text-align: center;
-  }
-
 </style>
 
 <!-- Tab links -->
@@ -593,25 +594,43 @@ figcaptionW {
 </div>
 
 <script>
-
-//Read More Button
-function readMore(text) {
-    let dots = document.querySelector(`.card[data-text="${text}"] .dots`);
-    let moreText = document.querySelector(`.card[data-text="${text}"] .more`); 
-    let btnText = document.querySelector(`.card[data-text="${text}"] .myBtn`);
-
-    if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.textContent = "Read excerpt";
-        moreText.style.display = "none";
-    } else {
-        dots.style.display = "none";
-        btnText.textContent = "Read less"; 
-        moreText.style.display = "inline";
-    }
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
 }
 
-// TABS
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
 function openCity(evt, cityName) {
   // Declare all variables
   var i, tabcontent, tablinks;
