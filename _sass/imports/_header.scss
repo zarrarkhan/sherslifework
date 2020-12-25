@@ -32,7 +32,7 @@
 
 .site-header-inside {
   box-sizing: border-box;
-  padding: 0em 0vw;
+  padding: 3.33333em 4vw;
   position: relative;
 }
 
@@ -83,7 +83,7 @@
 .menu-item {
   border-top: 1px dashed _palette(primary);
   padding: 0.5em 0;
-  font-size: 0.75rem;
+  font-size: 1rem;
 
   a {
     border: 0;
@@ -184,7 +184,7 @@
   .site-header-vertical {
     display: table-cell;
     height: 100%;
-    vertical-align: top;
+    vertical-align: bottom;
   }
 
   .site-branding {
