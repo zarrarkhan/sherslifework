@@ -57,7 +57,7 @@ header:
       icon_class: fa-facebook
       new_window: true
     - label: contact
-      url:/contact
+      url: /contact
       style: icon
       icon_class: fa-envelope
       new_window: true
