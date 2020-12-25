@@ -32,7 +32,7 @@
 
 .site-header-inside {
   box-sizing: border-box;
-  padding: 0em 4vw;
+  padding: 3.33333em 4vw;
   position: relative;
 }
 
@@ -184,7 +184,7 @@
   .site-header-vertical {
     display: table-cell;
     height: 100%;
-    vertical-align: bottom;
+    vertical-align: top;
   }
 
   .site-branding {
