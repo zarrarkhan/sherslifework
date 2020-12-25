@@ -36,9 +36,6 @@ header:
     - label: Sher Khan Foundation
       url: /skf
       style: link
-    - label: Contact
-      url: /contact
-      style: link
   has_social: true
   social_links:
     - label: Twitter
@@ -56,7 +53,7 @@ header:
       style: icon
       icon_class: fa-facebook
       new_window: true
-    - label: contact
+    - label: Contact
       url: /contact
       style: link
       new_window: true
