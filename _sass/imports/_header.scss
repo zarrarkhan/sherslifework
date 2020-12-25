@@ -32,7 +32,10 @@
 
 .site-header-inside {
   box-sizing: border-box;
-  padding: 1em 4vw;
+  padding-top: 1em;
+  padding-right: 4vw;
+  padding-bottom: 0;
+  padding-left: 4vw;
   position: relative;
 }
 
