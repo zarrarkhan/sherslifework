@@ -54,9 +54,9 @@
 
 .site-title {
   color: #fff;
-  font-size: 0rem;
+  font-size: 1.66667rem;
   font-weight: bold;
-  line-height: 0;
+  line-height: 1.2;
   margin: 0;
 
   a {
@@ -66,7 +66,7 @@
 }
 
 .site-description {
-  font-size: 0rem;
+  font-size: 1rem;
   font-style: italic;
   margin: 0;
 }
@@ -81,7 +81,7 @@
 }
 
 .menu-item {
-  border-top: 1px dashed _palette(primary);
+  border-top: 0px dashed _palette(primary);
   padding: 0.5em 0;
   font-size: 0.8rem;
 
