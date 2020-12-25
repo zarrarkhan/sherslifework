@@ -58,8 +58,7 @@ header:
       new_window: true
     - label: contact
       url: /contact
-      style: icon
-      icon_class: fa-envelope
+      style: link
       new_window: true
 footer:
   content: '&copy; All rights reserved.'
