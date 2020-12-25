@@ -83,6 +83,7 @@
 .menu-item {
   border-top: 1px dashed _palette(primary);
   padding: 0.5em 0;
+  font-size: 0.5rem;
 
   a {
     border: 0;
@@ -203,13 +204,13 @@
   }
 
   .site-navigation {
-    margin: 2.5rem auto 0;
+    margin: 1.0rem auto 0;
     max-width: 280px;
     width: 100%;
   }
 
   .site-navigation-alt {
-    padding: 2.5em 4vw;
+    padding: 1.0em 4vw;
   }
 }
 
