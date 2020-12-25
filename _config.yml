@@ -27,7 +27,7 @@ header:
     - label: Memories
       url: /memories
       style: link
-    - label: Shows & Critique
+    - label: Shows & Critiques
       url: /critique
       style: link
     - label: Mental Health
@@ -35,9 +35,6 @@ header:
       style: link
     - label: Sher Khan Foundation
       url: /skf
-      style: link
-    - label: Contact
-      url: /contact
       style: link
   has_social: true
   social_links:
@@ -55,6 +52,11 @@ header:
       url: 'https://www.facebook.com/Sherslifework-107327871176700/?view_public_for=107327871176700'
       style: icon
       icon_class: fa-facebook
+      new_window: true
+    - label: Contact
+      url:/contact
+      style: icon
+      icon_class: fa-contact
       new_window: true
 footer:
   content: '&copy; All rights reserved.'
