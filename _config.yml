@@ -38,22 +38,22 @@ header:
       style: link
   has_social: true
   social_links:
-    - label: Twitter
+    - label:
       url: 'https://twitter.com/sherslifework'
       style: icon
       icon_class: fa-twitter
       new_window: true
-    - label: Instagram
+    - label:
       url: 'https://www.instagram.com/sherslifework/'
       style: icon
       icon_class: fa-instagram
       new_window: true
-    - label: Facebook
+    - label:
       url: 'https://www.facebook.com/Sherslifework-107327871176700/?view_public_for=107327871176700'
       style: icon
       icon_class: fa-facebook
       new_window: true
-    - label: Contact
+    - label:
       url: /contact
       style: icons
       icon_class: fa-envelope
