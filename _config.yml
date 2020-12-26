@@ -53,7 +53,7 @@ header:
       style: icon
       icon_class: fa-facebook
       new_window: true
-    - label: Contact
+    - label: images/logo.png
       url: /contact
       style: link
       new_window: false
