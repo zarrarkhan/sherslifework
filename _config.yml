@@ -53,9 +53,10 @@ header:
       style: icon
       icon_class: fa-facebook
       new_window: true
-    - label: images/logo.png
+    - label: Contact
       url: /contact
-      style: link
+      style: icons
+      icon_class: fa-envelope
       new_window: false
 footer:
   content: '&copy; All rights reserved.'
