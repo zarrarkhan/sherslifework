@@ -27,8 +27,8 @@ header:
     - label: Memories
       url: /memories
       style: link
-    - label: Shows & Critique
-      url: /critique
+    - label: News & Events
+      url: /events
       style: link
     - label: Mental Health
       url: /mental
